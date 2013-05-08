@@ -5,4 +5,15 @@ if has("gui_running")
     " Automatically resize splits when resizing MacVim window
     autocmd VimResized * wincmd =
   endif
+
+  " hide right-hand scrollbar
+  set guioptions-=r
+  set guioptions-=R
+
+  " hide left-hand scrollbar
+  set guioptions-=l
+  set guioptions-=L
+
+  " hide toolbar
+  set guioptions-=T
 endif
