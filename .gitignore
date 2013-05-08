@@ -1,2 +1,4 @@
+_backup/*
+_temp/*
 *.swp
 .netrwhist
