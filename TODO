@@ -1,0 +1,4 @@
+# FIX: settings/core/filetypes.vim
+- Lines 25 - 31 relies on janus function
+
+# FIX: settings/core/plugins.vim
