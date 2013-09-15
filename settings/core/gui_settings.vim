@@ -1,4 +1,5 @@
 "https://raw.github.com/carlhuda/janus/master/janus/vim/core/before/plugin/gui_settings.vim
+"https://github.com/jigfox/vimfiles/blob/master/gvimrc
 
 if has("gui_running")
   if has("autocmd")
@@ -16,4 +17,13 @@ if has("gui_running")
 
   " hide toolbar
   set guioptions-=T
+
+  " use console instead of pop up dialog
+  set guioptions+=c
+
+  " don't use gui tab appearance
+  set guioptions-=e
+
+  set antialias
+
 endif

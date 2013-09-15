@@ -18,5 +18,6 @@ runtime settings/ctrlp.vim
 runtime settings/nerdtree.vim
 runtime settings/basic.vim
 runtime settings/vim-indent-guides.vim
+runtime settings/NERD_commenter.vim
 
 runtime settings/colors.vim

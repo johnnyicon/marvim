@@ -6,8 +6,10 @@ let g:ctrlp_custom_ignore = {
 \ }
 
 if has("gui_macvim") && has("gui_running")
-  map <D-t> :CtrlP<CR>
+  "map <D-t> :CtrlP<CR>
+  map <C-p> :CtrlP<CR><F5>
   "call janus#add_mapping('ctrlp', 'map', '<D-t>', ':CtrlP<CR>')
-  imap <D-t> <ESC>:CtrlP<CR>
+  "imap <D-t> <ESC>:CtrlP<CR>
+  imap <C-p> <ESC>:CtrlP<CR><F5>
   "call janus#add_mapping('ctrlp', 'imap', '<D-t>', '<ESC>:CtrlP<CR>')
 endif
