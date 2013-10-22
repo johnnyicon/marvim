@@ -7,22 +7,24 @@ if has("gui_running")
     autocmd VimResized * wincmd =
   endif
 
+  set guifont=Consolas:h13
+
   " hide right-hand scrollbar
   set guioptions-=r
   set guioptions-=R
 
   " hide left-hand scrollbar
-  set guioptions-=l
-  set guioptions-=L
+  "set guioptions-=l
+  "set guioptions-=L
 
   " hide toolbar
   set guioptions-=T
 
   " use console instead of pop up dialog
-  set guioptions+=c
+  "set guioptions+=c
 
   " don't use gui tab appearance
-  set guioptions-=e
+  "set guioptions-=e
 
   set antialias
 

@@ -5,7 +5,7 @@ endif
 
 " CtrlP OS-X Menu remapping
 if has("gui_macvim") && has("gui_running")
-  "  macmenu &File.New\ Tab key=<D-S-t>
+    macmenu &File.New\ Tab key=<D-S-t>
 endif
 
 if filereadable(expand("~/.gvimrc.after"))
