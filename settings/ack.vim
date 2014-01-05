@@ -1,3 +1,6 @@
+" https://github.com/ggreer/the_silver_searcher
+let g:ackprg = 'ag --nogroup --nocolor --column'
+
 "https://raw.github.com/carlhuda/janus/44dd1573c2270de1f18e265637b537406289f751/janus/vim/tools/janus/after/plugin/ack.vim
 if has("gui_macvim") && has("gui_running")
   " Command-Shift-F on OSX

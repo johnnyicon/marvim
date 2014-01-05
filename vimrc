@@ -1,5 +1,9 @@
 set nocompatible
 
+" http://stackoverflow.com/questions/821902/disabling-swap-files-creation-in-vim
+set nobackup
+set noswapfile
+
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 

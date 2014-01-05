@@ -1,4 +1,9 @@
 # FIX: settings/core/filetypes.vim
 - Lines 25 - 31 relies on janus function
 
+# NOTES
+- CtrlP: https://coderwall.com/p/hk_bwg
+- https://github.com/burke/matcher#using-with-ctrlpvim
+- https://github.com/ggreer/the_silver_searcher
+
 # FIX: settings/core/plugins.vim
