@@ -23,3 +23,13 @@ Installation
 
         ln -s /path/to/marvim/vimrc ~/.vimrc
         ln -s /path/to/marvim/gvimrc ~/.gvimrc
+
+3. SYMLINK VIM FOLDER
+
+        ln -s /path/to/marvim ~/.vim
+
+  You may need to remove ~/.vim if it already exists
+  
+3. Install Silver Searcher as Ack Replacement
+
+        brew install the_silver_searcher
