@@ -7,7 +7,8 @@ if has("gui_running")
     autocmd VimResized * wincmd =
   endif
 
-  set guifont=Consolas:h13
+  "set guifont=Consolas:h13
+  set guifont=Courier_New:h13
 
   " hide right-hand scrollbar
   set guioptions-=r
